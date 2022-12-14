@@ -44,7 +44,7 @@
                 <td><textarea name="alamat" id="" cols="30" rows="10"></textarea></td>
             </tr>
             <tr>
-                <td><input type="submit" name="kirim" id="" value="Buat"></td>
+                <td><button type="submit">Buat</button></td>
             </tr>
             <tr>
                 <td><a href="../index.php">back</a></td>

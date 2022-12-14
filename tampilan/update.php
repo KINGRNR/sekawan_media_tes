@@ -64,7 +64,7 @@ $data = mysqli_fetch_array($hasil);
                 <td><textarea name="alamat" id="" cols="30" rows="10"><?= $data['alamat'] ?></textarea></td>
             </tr>
             <tr>
-                <td><input type="submit" name="kirim" id="" value="Update"></td>
+                <td><button type="submit">Update</button></td>
             </tr>
             <tr>
                 <td><a href="../index.php">back</a></td>

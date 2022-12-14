@@ -9,4 +9,4 @@ $query = "INSERT INTO tb_siswa (nama,jenis_kelamin,alamat)
     VALUES ('$nama', '$jenkel','$alamat')";
 
 mysqli_query($conn, $query);
-header('Location: ../tampilan/insert.php');
+header('Location: ../index.php');
